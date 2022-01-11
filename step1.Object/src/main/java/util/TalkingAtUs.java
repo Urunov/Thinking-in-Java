@@ -6,13 +6,13 @@ public enum TalkingAtUs {
     Middle(3),
     Right(6);
 
-    private int tabsCount;
+    private int tabCount;
 
-    private TalkingAtUs(int tabsCount){
-        this.tabsCount = tabsCount;
+   private TalkingAtUs(int tabCount){
+        this.tabCount = tabCount;
     }
 
-    public int tabsCount() {
-        return tabsCount();
+    public int tabCount() {
+        return tabCount;
     }
 }

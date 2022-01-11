@@ -21,7 +21,13 @@ public class Tvs implements PlayerTv {
         this.narrator = new Narrator(this, TalkingAtUs.Right);
     }
 
+   // @Override
+    public String getName() {
+        return name;
+    }
+
     public boolean isPowerOn(){
+        System.out.println("power is on");
         return this.powerOn;
     }
 
@@ -36,14 +42,13 @@ public class Tvs implements PlayerTv {
         //
         this.powerOn = false;
         this.valueLevel = 1;
+        System.out.println("turn off");
     }
 
     private void broadcasting(){
         //
         narrator.say("Value: " + valueLevel + " good new in TV today");
     }
-    @Override
-    public String getName() {
-        return name;
-    }
+
+
 }

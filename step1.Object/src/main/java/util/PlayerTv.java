@@ -2,5 +2,5 @@ package util;
 
 public interface PlayerTv {
     //
-    public String getName();
+   public String getName();
 }

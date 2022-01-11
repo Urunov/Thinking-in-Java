@@ -2,9 +2,9 @@ package util;
 
 public class Narrator {
     //
-    private String playerName;
-    private String playerClass;
-    private TalkingAtUs positions;
+    private final String playerName;
+    private final String playerClass;
+    private final TalkingAtUs positions;
     private boolean silentMode;
 
     public Narrator(PlayerTv playerTv, TalkingAtUs positions) {
@@ -15,6 +15,11 @@ public class Narrator {
     }
 
     public void justKeepSilent(){
+        //
+        this.silentMode = false;
+    }
+
+    public void keepTalktive(){
         //
         this.silentMode = false;
     }
@@ -54,7 +59,7 @@ public class Narrator {
         //
         StringBuffer buffer = new StringBuffer();
 
-        for(int i=0; i<this.positions.tabsCount(); i++){
+        for(int i=0; i<this.positions.tabCount(); i++){
             buffer.append("\t");
         }
         return buffer;
