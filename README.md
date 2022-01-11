@@ -78,4 +78,11 @@ On the other hand, if you want to insert an element in the middle of a sequence,
 You might start building your program with a LinkedList and, when tuning for performance, change to an ArrayList.
 Because of the abstraction via the interface List, you can change from one to the other with minimal impact on your code.
 
+
+### The static keyword.
+
+You can achieve both of these effects with the <b> static keyword</b>. 
+
+
+
 ### 3. Operators
