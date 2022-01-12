@@ -1,21 +1,20 @@
-package HomeFacilty;
+package HomeWatch;
 
 import util.Narrator;
 import util.PlayerTv;
 import util.TalkingAtUs;
 
 public class Child implements PlayerTv {
-    //
+   //
     private String name;
     private int age;
 
     private Narrator narrator;
 
-    public Child(String name, int age) {
+    public Child(String name ) {
         //
         this.name = name;
         this.age = age;
-
         this.narrator = new Narrator(this, TalkingAtUs.Middle);
     }
 
@@ -26,35 +25,37 @@ public class Child implements PlayerTv {
 
     public boolean canYouTurnOnTv(){
         //
-        narrator.say("Can you turn on TV");
-        if (canITurnOnTV()){
-            narrator.say("yes, possible do it.");
+        narrator.say("Can you turn on Tv?");
+
+        if (canITurnOnTv()){
+            narrator.say("yes, possible to");
             return true;
         } else{
-            narrator.say("no, impossible to turn.");
+            narrator.say("No,I'm still young and I can't turn it on. ");
             return false;
         }
     }
 
     public void turnOnTv(Tv tv){
         //
-        narrator.say("yes, we can...");
+        narrator.say("yes, turn on");
         tv.turnOn();
     }
 
     public void turnVolumeUp(Tv tv){
         //
-        narrator.say("yes, I'll turn up the volume.");
+        narrator.say("yes, value is slow");
         tv.turnVolumeUp();
     }
 
-    private boolean canITurnOnTV(){
+    private boolean canITurnOnTv(){
         //
-        if(age > 4){
-            narrator.say("I'm five years old, so I'll have to turn on the tv...");
+        if (age > 4){
+            narrator.say(" possible to turn on Radio. ");
             return true;
         }
-        narrator.say("I'm still too young to touch the tv. ");
+        narrator.say("I am so child for turn on tv");
         return false;
     }
+
 }

@@ -1,4 +1,4 @@
-package HomeFacilty;
+package HomeWatch;
 
 import util.Narrator;
 import util.PlayerTv;
@@ -21,12 +21,8 @@ public class Tv implements PlayerTv {
         this.narrator = new Narrator(this, TalkingAtUs.Right);
     }
 
-    @Override
-    public String getName() {
-        return null;
-    }
-
     public boolean isPowerOn(){
+        //
         return this.powerOn;
     }
 
@@ -35,6 +31,10 @@ public class Tv implements PlayerTv {
         this.powerOn = true;
         this.volumeLevel = 1;
         this.broadcasting();
+    }
+    @Override
+    public String getName() {
+        return null;
     }
 
     public void turnOff(){
@@ -45,26 +45,23 @@ public class Tv implements PlayerTv {
 
     public void turnVolumeUp(){
         //
-        narrator.say("Value is up");
+        narrator.say("Value of sound is low");
         volumeLevel++;
         broadcasting();
     }
 
-    public void turnVolumeLevel(){
+    public void turnVolumeDown(){
         //
-        narrator.say("value is down");
+        narrator.say("Sound will be down");
         volumeLevel--;
         broadcasting();
     }
 
     public int getVolumeLevel(){
-        //
         return volumeLevel;
     }
-
     private void broadcasting(){
         //
-        narrator.say("[Value is: " + volumeLevel + "] Ah, ah, let me tell you today's news.");
+        narrator.say("[Volume: "+ volumeLevel + "today is good news");
     }
-
 }

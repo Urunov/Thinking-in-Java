@@ -5,7 +5,6 @@ public class HistoryCheck {
     public static void main(String[] args) {
         //
         startStory();
-        System.out.println("Hello home");
     }
 
     public static void startStory(){

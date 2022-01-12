@@ -11,7 +11,7 @@ public class TellUsStory {
         //
         Tvs tvs = new Tvs("Tivoli");
 
-        Mama mama  = new Mama("Yeongmi");
+        Mama mama  = new Mama("YeongmiMam");
         mama.watchToTV(tvs);
 
     }

@@ -14,7 +14,7 @@ public class Mama implements PlayerTv {
     public Mama(String name) {
         //
         this.name = name;
-        this.adorableChild = new Child("Nuro", 5);
+        this.adorableChild = new Child("Aleks", 5);
         this.narrator = new Narrator(this, TalkingAtUs.Left);
     }
 
@@ -25,7 +25,7 @@ public class Mama implements PlayerTv {
 
     public void listenToTv(Tv tv){
         //
-        narrator.say("That's right, I'll listen to the tv.");
+        narrator.say("That's right, I'll watch to the tv.");
 
         narrator.say(adorableChild.getName() + "Can you turn on the tv?");
 
