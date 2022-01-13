@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a27e3ca-1d31-46c4-81da-c78ef0d80556" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CrosswalkManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Talker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../step1.Object/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/1/6/16a4fee31beb0653a5c4260991d8e4e68398159d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/1/7/17316bd50f99f22c542881a1eb0e84cdde7f4393" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/2/1/2108dc49c49fd04aef20c1435ae4b234dcf07f30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/2/3/23416626ef60a93fdcbb4e78dd1b059c01ff477b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/2/4/24c8625bfb7f331835f347466a113cb151ff8931" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/3/1/3135c489e73a245d8089c2f6c831f1facfeea748" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/3/d/3d930d3bc89cb338c08c9369504c3a0a46a0d919" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/5/5/55eabb4dcbf36886a83d434c1e16dba4d3d8f135" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/c/4/c4f1444ba2ac434717a78664ffd5785d515f72e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/e/c/eccb174b933e0401d9fb214af029f198bfbe10cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../step1.Object/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23czf0sYOjhsiUIQa9g6upINTLI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a27e3ca-1d31-46c4-81da-c78ef0d80556" name="Changes" comment="" />
+      <created>1642048265020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642048265020</updated>
+      <workItem from="1642048267204" duration="2256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

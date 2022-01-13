@@ -1,14 +1,13 @@
 package HomeWatch;
 
-import HomeFacilty.Tv;
 import util.Narrator;
 import util.PlayerTv;
 import util.TalkingAtUs;
 
 public class LivingRoom implements PlayerTv {
     //
-    private Child playingChild;
-    private Tv tv;
+    private Child1 playingChild;
+    private TvWatch tvWatch;
 
     private Narrator narrator;
 
@@ -20,29 +19,29 @@ public class LivingRoom implements PlayerTv {
 
     @Override
     public String getName() {
-        return null;
+        return "Here is living room";
     }
 
-    public void enter(Child child){
+    public void enter(Child1 child1){
         //
-        narrator.say(String.format("Living room %s here ", child.getName()));
-        this.playingChild = child;
+        narrator.say(String.format("Living room %s here ", child1.getName()));
+        this.playingChild = child1;
     }
 
-    public Child getChild(){
+    public Child1 getChild(){
         //
         return playingChild;
     }
 
-    public void setUp(Tv tv){
+    public void setUp(TvWatch tv){
         //
         narrator.say(String.format("Living room (%s) has tv set.", tv.getName()));
-        this.tv = tv;
+        this.tvWatch = tv;
     }
 
-    public Tv getTv(){
+    public TvWatch getTv(){
         //
-        return tv;
+        return tvWatch;
     }
 
 }

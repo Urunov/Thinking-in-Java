@@ -52,7 +52,7 @@ public class Narrator {
 
     private String formatMessage(String message){
         //
-        return String.format("<%s: %s> %s", playerName, playerClass, message);
+        return String.format("<%s : %s> %s", playerName, playerClass, message);
     }
 
     private StringBuffer appendTabs(){

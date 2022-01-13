@@ -21,7 +21,7 @@ public class Child implements PlayerTv {
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     public boolean canYouTurnOnTv(){

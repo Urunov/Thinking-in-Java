@@ -3,11 +3,10 @@ package HomeFacilty;
 public class HistoryCheck {
     //
     public static void main(String[] args) {
-        //
-        startStory();
+        keepDialog();
     }
 
-    public static void startStory(){
+    public static void keepDialog(){
         //
         Tv tv = new Tv("LG");
         Mama mama = new Mama("Mamam");

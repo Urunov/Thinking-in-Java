@@ -20,7 +20,7 @@ public class Mama implements PlayerTv {
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     public void listenToTv(Tv tv){
@@ -39,6 +39,7 @@ public class Mama implements PlayerTv {
     public void adjustTvVolume(Tv tv){
         //
         narrator.say("I'll adjust the sound.");
+
 
         if (!tv.isPowerOn()){
             narrator.say("This tv is off. I have to turn it on first and then adjust the sound.");
