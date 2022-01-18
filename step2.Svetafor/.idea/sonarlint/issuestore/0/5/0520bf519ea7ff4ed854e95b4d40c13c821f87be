@@ -1,17 +1,0 @@
-
-–
-java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±‡ïf
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Ğ›©
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’ùœ
-L
-java:S1172	"7Remove this unused method parameter "crosswalkManager".(±‡ïf
-@
-java:S1068"*Remove this unused "talker" private field.(òÏˆÄ
-<
-java:S1068"&Remove this unused "id" private field.(æ¨ç†
-E
-java:S1068"*Remove this unused "locale" private field.(şÎ¸Ìùÿÿÿÿ
->
-java:S1144	")Remove this unused private "talk" method.(±‡ïf

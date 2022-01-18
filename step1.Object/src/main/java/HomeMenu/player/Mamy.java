@@ -65,7 +65,6 @@ public class Mamy implements PlayerTv {
         }
     }
 
-
     public void watchOnTvSet(){
         //
         narrator.say("That's right, I'll listen to the radio.");

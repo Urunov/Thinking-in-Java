@@ -1,0 +1,8 @@
+
+u
+java:S4144M"_Update this method so that its implementation is not identical to "canITurnOnTvSet" on line 69.(†¬úí
+W
+java:S1126G"AReplace this if-then-else statement by a single return statement.(’´ûÿ
+W
+java:S1126O"AReplace this if-then-else statement by a single return statement.(’´ûÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÿÏÏ

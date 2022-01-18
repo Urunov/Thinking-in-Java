@@ -83,5 +83,12 @@ public class Children implements PlayerTv {
     }
 
     public void turnVolumeUp(TvSet tvSet) {
+        //
+        if (!canIAdjustVolume()){
+            narrator.say("I can not volume up ");
+            return;
+        }
+        narrator.say("Please up value  ");
+        tvSet.turnVolumeUp();
     }
 }

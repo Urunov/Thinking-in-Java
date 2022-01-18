@@ -1,0 +1,10 @@
+
+v
+java:S1450"YRemove the "livingRoom" field and declare it as a local variable in the relevant methods.(‚š‡À8ØÆÌšå/
+7
+java:S22754"Not enough arguments.(ãÛ¥åøÿÿÿÿ8¼î€šå/
+Y
+java:S1117;">Rename "livingRoom" which hides the field declared at line 14.(¼…µ‘ýÿÿÿÿ
+}
+java:S1488;"bImmediately return this expression instead of assigning it to the temporary variable "livingRoom".(¼…µ‘ýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßÇç‡

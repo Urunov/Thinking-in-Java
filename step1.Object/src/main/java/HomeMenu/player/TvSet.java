@@ -63,6 +63,7 @@ public class TvSet implements PlayerTv {
         //
         return volumeLevel;
     }
+
     private void broadcasting() {
         //
         narrator.say("[Volume: " + volumeLevel + "]  Oh, let me tell you today's news.");
