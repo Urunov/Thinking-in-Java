@@ -78,6 +78,27 @@ On the other hand, if you want to insert an element in the middle of a sequence,
 You might start building your program with a LinkedList and, when tuning for performance, change to an ArrayList.
 Because of the abstraction via the interface List, you can change from one to the other with minimal impact on your code.
 
+### Relational operators
+
+Relational operators generate a boolean result. They evaluate the relationship between the values of the operands.
+
+A relational expression produces true if the relationship is true, and false if the relationship is untrue. The relational operators are less than (<), greater than (>), **less than or equal to (<=), greater than or equal to (>=), equivalent (==) and not equivalent (!=). **
+
+
+Equivalence and nonequivalence work with all primitives, but the other comparisons won’t work with type boolean. Because boolean values can only be true or false, “greater than” and “less than” doesn’t make sense.
+
+      //: operators/Equivalence.java
+          public class Equivalence {
+            public static void main(String[] args) {
+              Integer n1 = new Integer(47);
+              Integer n2 = new Integer(47);
+              System.out.println(n1 == n2);
+              System.out.println(n1 != n2);
+            }
+          } /* Output:
+          false
+          true
+          *///:~
 
 ### The static keyword.
 
