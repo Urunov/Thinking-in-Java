@@ -43,6 +43,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/CommaSikl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/ForEachInt.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/ForEachString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/ForeachIn.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/Range.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/RangeVal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/ReturnClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OperationJava/src/sikls/SiklToLetter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
